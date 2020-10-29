@@ -12,6 +12,7 @@
         <module>learn-java-servlet</module>
         <module>learn-java-fileio</module>
         <module>learn-java-nested-classes</module>
+        <module>learn-java-spring-http</module>
     </modules>
 
     <properties>

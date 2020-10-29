@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="learn-java-spring-http" />
         <module name="learn-java-nested-classes" />
         <module name="learn-java-fileio" />
         <module name="learn-java-servlet" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="learn-java-nested-classes" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
