@@ -6,7 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.intellviz</groupId>
     <artifactId>learn-advanced-java</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>learn-java-servlet</module>
+        <module>learn-java-fileio</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
