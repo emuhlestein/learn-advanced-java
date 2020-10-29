@@ -1,0 +1,11 @@
+1,utah,shoe,1,nike
+2,texas,shoe,2,new balance
+3,oregon,shoe,4,nike
+4,utah,shoe,3,nike
+4,utah,hat,2,goorin
+5,utah,hat,3,goorin
+6,utah,hat,3,goorin
+7,utah,hat,3,stetson
+8,utah,hat,3,stetson
+9,utah,hat,3,stetson
+10,utah,hat,3,stetson

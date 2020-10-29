@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="learn-java-servlet" />
+        <module name="learn-java-fileio" />
       </profile>
     </annotationProcessing>
   </component>
