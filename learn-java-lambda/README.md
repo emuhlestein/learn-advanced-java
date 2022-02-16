@@ -1,4 +1,4 @@
-## Syntax of Lambda Expression
+## Syntax of a Lambda Expression
 ( input parameters ) -> { body }
 
 An interface with one abstract method is a **Functional Interface**.
@@ -15,3 +15,5 @@ New annotation
 public interface Contruct  {  
 &nbsp;&nbsp;&nbsp;public void build(); // this method is abstract.  
 }
+
+Lamdas implement Functional Interfaces
