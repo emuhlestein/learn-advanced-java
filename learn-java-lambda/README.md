@@ -36,3 +36,29 @@ Method andThen() is for chaining.
 ## BiConsumer Functional Interface
 BiConsumer<String> c = (a,b) -> System.out.println(a*b);
 
+## Predicate Functional Interface
+Is a boolean-valued function of one argument.
+
+Has a one method: test();
+
+@FunctionalInterface  
+public interface Predicate<T> {  
+&nbsp;&nbsp;&nbsp;boolean test(T t);  
+
+&nbsp;&nbsp;&nbsp;// more stuff
+}
+
+Predicate<int> b = (i) -> i > 10;
+
+System.out.println(b.test(20)); // displays true
+
+Can chain predicates with and(), or() or negate() methods.
+
+To perform two tests
+p1.and(p2).test(value) // both have to be true to be true
+
+p1.or(p2).test(value) // only one has to be true to be true
+
+
+
+
